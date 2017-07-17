@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/card_img_margin"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/library"
+                style="@style/cardImg"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/library" />
+
+            <TextView
+                android:id="@+id/libraryTxt"
+                style="@style/cardTxt"
+                android:layout_alignLeft="@+id/library"
+                android:layout_below="@id/library"
+                android:text="@string/library" />
+
+            <ImageView
+                android:id="@+id/recent"
+                style="@style/cardImg"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/recent" />
+
+            <TextView
+                style="@style/cardTxt"
+                android:layout_alignLeft="@+id/recent"
+                android:layout_below="@id/recent"
+                android:text="@string/recent" />
+
+            <ImageView
+                android:id="@+id/podcast"
+                style="@style/cardImg"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/libraryTxt"
+                android:src="@drawable/podcast" />
+
+            <TextView
+                style="@style/cardTxt"
+                android:layout_alignLeft="@+id/podcast"
+                android:layout_below="@id/podcast"
+                android:text="@string/podcast" />
+
+            <ImageView
+                android:id="@+id/discover"
+                style="@style/cardImg"
+                android:layout_alignBottom="@id/podcast"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/discover" />
+
+            <TextView
+                style="@style/cardTxt"
+                android:layout_alignLeft="@+id/discover"
+                android:layout_below="@id/discover"
+                android:text="@string/discover" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/activity_play_bar" />
+    </LinearLayout>
+</ScrollView>

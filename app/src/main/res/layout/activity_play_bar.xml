@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        style="@style/playBar">
+
+        <ImageView
+            android:id="@+id/cover"
+            style="@style/cover"
+            android:src="@drawable/dreamer" />
+
+        <TextView
+            android:id="@+id/playTxt"
+            style="@style/playTxt"
+            android:layout_weight="1"
+            android:text="@string/play" />
+
+        <ImageButton
+            android:id="@+id/previousButton"
+            style="@style/playButton"
+            app:srcCompat="@android:drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/playButton"
+            style="@style/playButton"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            style="@style/playButton"
+            app:srcCompat="@android:drawable/ic_media_next" />
+
+    </LinearLayout>
+</FrameLayout>

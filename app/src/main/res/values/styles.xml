@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="cardImg">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">@dimen/card_img_height</item>
+        <item name="android:layout_width">@dimen/card_img_width</item>
+        <item name="android:layout_marginLeft">@dimen/card_img_margin</item>
+        <item name="android:layout_marginRight">@dimen/card_img_margin</item>
+    </style>
+
+    <style name="cardTxt">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/card_img_width</item>
+        <item name="android:padding">@dimen/card_txt_padding</item>
+        <item name="android:textSize">@dimen/card_txt_size</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="cover">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">@dimen/cover</item>
+        <item name="android:layout_width">@dimen/cover</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="playTxt">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/card_txt_padding</item>
+        <item name="android:paddingRight">@dimen/card_txt_padding</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/card_txt_size</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="playButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="playBar">
+        <item name="android:layout_height">@dimen/play_bar_high</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/play_bar_padding</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="coverBig">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="playTxtBig">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/card_txt_padding</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/card_txt_size</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="nowPlayingLayout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/now_playing_layout_margin</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="listCover">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">@dimen/cover</item>
+        <item name="android:layout_width">@dimen/cover</item>
+    </style>
+
+    <style name="listTxt">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/card_txt_padding</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/list_txt_size</item>
+        <item name="android:maxLines">2</item>
+    </style>
+</resources>

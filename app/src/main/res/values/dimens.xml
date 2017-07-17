@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_img_height">150dp</dimen>
+    <dimen name="card_img_width">150dp</dimen>
+    <dimen name="card_img_margin">16dp</dimen>
+    <dimen name="card_txt_padding">8dp</dimen>
+    <dimen name="card_txt_size">16sp</dimen>
+    <dimen name="cover">50dp</dimen>
+    <dimen name="play_bar_high">80dp</dimen>
+    <dimen name="play_bar_padding">8dp</dimen>
+    <dimen name="now_playing_layout_margin">16dp</dimen>
+    <dimen name="list_txt_size">14sp</dimen>
+</resources>

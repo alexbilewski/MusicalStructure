@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.PaymentActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample_podcast" />
+
+    <TextView
+        android:id="@+id/playTxt"
+        style="@style/listTxt"
+        android:text="@string/android_pay_api" />
+
+    <ImageButton
+        android:id="@+id/BuyButton"
+        style="@style/playButton"
+        app:srcCompat="@drawable/ic_shopping_cart_black_24dp" />
+</LinearLayout>

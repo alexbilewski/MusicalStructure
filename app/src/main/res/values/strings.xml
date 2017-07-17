@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="library">Library</string>
+    <string name="recent">Recent</string>
+    <string name="podcast">Podcast</string>
+    <string name="discover">Discover</string>
+    <string name="play">The Tallest Man On Earth x SAINT WKND - The Dreamer</string>
+    <string name="NowPlaying">Now Playing</string>
+    <string name="podcast_name">Kotlin Podcast</string>
+    <string name="payment">Payment</string>
+    <string name="android_pay_api">Android Pay API can be used to process payment</string>
+</resources>
